@@ -8,8 +8,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 VERIFY_TOKEN = "lxhong"
-ACCESS_TOKEN = "EAAFRZBjzD2MwBAAUxT8ixWMKHnuYRrZCBtpzlJ93ZCsA5EQbiNHfSSH9A5PZAEiZBH4OAp5NVSOc0cRUkhvImNiIZBswJnTC6MgBbB6g2AZCes88ZB4WzWls8VsQa2nOstfwnRXxmzyNl1noHvDm0LzFgTMa9uFlHZAmVHnmgPQNnyAZDZD"
-
+ACCESS_TOKEN = "EAAFRZBjzD2MwBAHk5ch1V3SpILIc8mFQuqstLW9n7NWZAqcEN8dyDDVaoLBbazbBTxSdwVrSKXCdSKzPbPxX96CEixvOQKW5tBN2PvRvZAWSdKY0EAP6aQxNHmtotrRGjzfa9nf5L16ynt3KiwB2H62q8nu3tvwcyZBBMExxMgZDZD"
 
 @app.route('/', methods=['GET'])
 def verify():
