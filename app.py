@@ -43,7 +43,10 @@ def webook():
                     message_text = messaging_event["message"]["text"]  # the message's text
 
 
-                    send_message(sender_id, "got it, thanks!")
+                    if message_text == "hi":
+                        send_message(sender_id, "hello to my favorite movies!")
+                    else:
+                        send_message(sender_id, "got it, thanks!")
 
                 if messaging_event.get("delivery"):  # delivery confirmation
                     pass
